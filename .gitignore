@@ -1,0 +1,42 @@
+# Build outputs
+**/bin/
+**/obj/
+**/publish/
+
+# .NET
+*.user
+*.vs/
+*.nupkg
+*.snupkg
+
+# Rider / IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Blazor/wasm build outputs
+**/*.dll
+**/*.pdb
+**/dotnet.*.js
+**/*.wasm
+**/*.dat
+
+# App data and databases
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Secrets / env
+.env
+.env.* 
+secrets.json
+appsettings.*.Development.json
+
+# Azure / publish profiles
+**/*.Publish.xml
+*.publishsettings
+*/Properties/launchSettings.json
